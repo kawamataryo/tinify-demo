@@ -5,6 +5,7 @@ TinyPNGのJavaScript API-clientのデモ
 srcディレクトリに最適化したい画像を配置して、
 
 ```
+$ yarn
 $ yarn run min
 ```
 

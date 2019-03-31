@@ -1,6 +1,6 @@
 const fs = require('fs');
 const tinify = require('tinify');
-tinify.key = 'REMOVED_CREDENTIAL';
+tinify.key = 'APIキー';
 
 const srcDir = './src/';
 const destDir = './dest/';

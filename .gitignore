@@ -1,0 +1,9 @@
+src/*
+dest/*
+yarn.lock
+yarn-error.log
+.DS_Store
+.yarn-integrity
+.bin/
+.idea/
+node_modules

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const tinify = require('tinify');
-tinify.key = 'RwskgYFv5mvmstHOpfs3ZOtPA9TmPCJO';
+tinify.key = 'APIキー';
 
 const srcDir = './src/';
 const destDir = './dest/';

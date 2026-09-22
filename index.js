@@ -1,6 +1,9 @@
 const fs = require('fs');
 const tinify = require('tinify');
-tinify.key = 'APIキー';
+tinify.key = (process.env.TINIFY_API_KEY || '').trim();
+if (!tinify.key) {
+  throw new Error('Set TINIFY_API_KEY before running this script');
+}
 
 const srcDir = './src/';
 const destDir = './dest/';

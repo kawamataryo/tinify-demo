@@ -7,3 +7,7 @@ yarn-error.log
 .bin/
 .idea/
 node_modules
+
+.env
+.env.*
+!.env.example
